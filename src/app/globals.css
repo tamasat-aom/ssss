@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  * {
+    scroll-behavior: smooth;
+  }
   div {
     @apply text-[16px];
   }

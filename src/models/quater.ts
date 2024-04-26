@@ -1,7 +1,7 @@
 import mongoose, { Schema } from "mongoose";
 
 const quaterSchema = new Schema({
-  quater: Number,
+  quarter: Number,
   content: [{ headers: String, desc: String, date: String }],
 });
 
